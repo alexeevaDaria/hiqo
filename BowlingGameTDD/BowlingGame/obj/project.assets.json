@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\net_hiqo\\BowlingGameTDD\\BowlingGame\\BowlingGame.csproj",
+      "projectUniqueName": "C:\\net_hiqo\\hiqo\\BowlingGameTDD\\BowlingGame\\BowlingGame.csproj",
       "projectName": "BowlingGame",
-      "projectPath": "C:\\net_hiqo\\BowlingGameTDD\\BowlingGame\\BowlingGame.csproj",
+      "projectPath": "C:\\net_hiqo\\hiqo\\BowlingGameTDD\\BowlingGame\\BowlingGame.csproj",
       "packagesPath": "C:\\Users\\laris\\.nuget\\packages\\",
-      "outputPath": "C:\\net_hiqo\\BowlingGameTDD\\BowlingGame\\obj\\",
+      "outputPath": "C:\\net_hiqo\\hiqo\\BowlingGameTDD\\BowlingGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

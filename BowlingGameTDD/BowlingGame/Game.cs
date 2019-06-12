@@ -7,7 +7,7 @@ namespace BowlingGame
     public class Game
     {
         int currentIndex = 0;
-        public int[] rolls = new int[22];
+        private int[] rolls = new int[22];
         public int this[int index]
         {
             set
@@ -24,8 +24,10 @@ namespace BowlingGame
             }
         }
         public void Roll( int ballCount)
-        {
-            
+        {            
+            //list current score
+            //frame score
+            //
             if (ballCount <= 10 && ballCount >= 0)
                 if((currentIndex % 2 != 0 && (ballCount>10-rolls[currentIndex - 1])))
                     throw new ArgumentOutOfRangeException("second roll in a frame must be less or equal to (10 - ballCount)");
@@ -38,13 +40,6 @@ namespace BowlingGame
                     rolls[currentIndex++] = ballCount;
             else
                 throw new ArgumentOutOfRangeException("ballCount must be in between [0,10]");
-        }
-        public void KeepRolling(int value, int rounds)
-        {
-            for (int i = 0; i < rounds; i++)
-            {
-                Roll(value);
-            }
         }
 
         

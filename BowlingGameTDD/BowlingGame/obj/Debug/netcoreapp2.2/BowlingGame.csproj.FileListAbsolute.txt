@@ -9,3 +9,14 @@ C:\net_hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.Assem
 C:\net_hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.AssemblyInfo.cs
 C:\net_hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.dll
 C:\net_hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.pdb
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\bin\Debug\netcoreapp2.2\BowlingGame.deps.json
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\bin\Debug\netcoreapp2.2\BowlingGame.runtimeconfig.json
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\bin\Debug\netcoreapp2.2\BowlingGame.runtimeconfig.dev.json
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\bin\Debug\netcoreapp2.2\BowlingGame.dll
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\bin\Debug\netcoreapp2.2\BowlingGame.pdb
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.csprojAssemblyReference.cache
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.csproj.CoreCompileInputs.cache
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.AssemblyInfoInputs.cache
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.AssemblyInfo.cs
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.dll
+C:\net_hiqo\hiqo\BowlingGameTDD\BowlingGame\obj\Debug\netcoreapp2.2\BowlingGame.pdb
