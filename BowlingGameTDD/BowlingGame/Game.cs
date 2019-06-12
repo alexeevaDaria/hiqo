@@ -25,16 +25,29 @@ namespace BowlingGame
         }
         public void Roll( int ballCount)
         {
-            //check for <= 10
+            
             if (ballCount <= 10 && ballCount >= 0)
-                if((currentIndex % 2 != 0 && (ballCount>10-rolls[ballCount-1])))
+                if((currentIndex % 2 != 0 && (ballCount>10-rolls[currentIndex - 1])))
                     throw new ArgumentOutOfRangeException("second roll in a frame must be less or equal to (10 - ballCount)");
+                else if (ballCount == 10)
+                {
+                    rolls[currentIndex] = ballCount;
+                    currentIndex += 2;
+                }                  
                 else
                     rolls[currentIndex++] = ballCount;
             else
                 throw new ArgumentOutOfRangeException("ballCount must be in between [0,10]");
         }
+        public void KeepRolling(int value, int rounds)
+        {
+            for (int i = 0; i < rounds; i++)
+            {
+                Roll(value);
+            }
+        }
 
+        
         //1 spare 2 strike
         public int Score()
         {
@@ -58,10 +71,6 @@ namespace BowlingGame
                     frameNumber += 2;
                 }
             }
-            if (rolls[18] == 10)
-                finalScore += rolls[21];
-            if (rolls[18] + rolls[19] == 10)
-                finalScore += rolls[21] + rolls[22];
             return finalScore;
         }
 
